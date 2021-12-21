@@ -10,22 +10,22 @@ import random
 def mouseClick(clickTimes,lOrR,img,reTry):
     if reTry == 1:
         while True:
-            location = pyautogui.locateCenterOnScreen(img)
+            location = pyautogui.locateCenterOnScreen(img,confidence =0.9)
             if location is not None:
                 pyautogui.click(location.x,location.y,clicks=clickTimes,interval=0.2,duration=0.2,button=lOrR)
                 break
-            print("未找到匹配图片,0.1秒后重试")
+            print("未匹配到"+img+"图片,0.1秒后重试")
             time.sleep(0.1)
     elif reTry == -1:
         while True:
-            location = pyautogui.locateCenterOnScreen(img)
+            location = pyautogui.locateCenterOnScreen(img,confidence=0.9)
             if location is not None:
                 pyautogui.click(location.x,location.y,clicks=clickTimes,interval=0.2,duration=0.2,button=lOrR)
             time.sleep(0.1)
     elif reTry > 1:
         i = 1
         while i < reTry + 1:
-            location=pyautogui.locateCenterOnScreen(img)
+            location=pyautogui.locateCenterOnScreen(img,confidence=0.9)
             if location is not None:
                 pyautogui.click(location.x,location.y,clicks=clickTimes,interval=0.2,duration=0.2,button=lOrR)
                 print("重复")
@@ -120,11 +120,12 @@ def mainWork(img):
         #4代表输入
         elif cmdType.value == 4.0:
             inputValue = sheet3.row(i)[1].value
-
-            pyperclip.copy(inputValue)
+            values = inputValue.split('。')
+            value = random.sample(values,1)
+            pyperclip.copy(value[0])
             pyautogui.hotkey('ctrl','v')
             time.sleep(0.5)
-            print("输入:",inputValue)                                        
+            print("输入:",value[0])
         #5代表等待
         elif cmdType.value == 5.0:
             #取图片名称
@@ -165,6 +166,9 @@ if __name__ == '__main__':
         else:
             # 循环key次
              for i in range(int(key)):
-                print(i)
+                 mainWork(sheet3)
+                 time.sleep(0.1)
+                 print("等待0.1秒")
     else:
+
         print('输入有误或者已经退出!')
