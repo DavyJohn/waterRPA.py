@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3dbaa8d-7f9d-44d4-a3c2-57ca9474d02c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f3dbaa8d-7f9d-44d4-a3c2-57ca9474d02c" name="Default Changelist" comment="有次数选择，同时提高了图片识别度">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26.png" beforeDir="false" afterPath="$PROJECT_DIR$/26.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/waterRPA.py" beforeDir="false" afterPath="$PROJECT_DIR$/waterRPA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/办公自动化.xls" beforeDir="false" afterPath="$PROJECT_DIR$/办公自动化.xls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +56,38 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.waterRPA">
+    <configuration name="pingjiao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="waterRPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/评教" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/评教/pingjiao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="waterRPA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="waterRPA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,6 +113,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.waterRPA" />
+        <item itemvalue="Python.pingjiao" />
       </list>
     </recent_temporary>
   </component>
@@ -111,8 +135,22 @@
       <workItem from="1639357875127" duration="339000" />
       <workItem from="1639358688395" duration="5375000" />
       <workItem from="1640059173595" duration="3063000" />
-      <workItem from="1640067871134" duration="2322000" />
+      <workItem from="1640067871134" duration="2967000" />
+      <workItem from="1640333534382" duration="23000" />
+      <workItem from="1640573195272" duration="3346000" />
+      <workItem from="1640580854012" duration="1212000" />
+      <workItem from="1641268424420" duration="920000" />
+      <workItem from="1641273148284" duration="10000" />
+      <workItem from="1641456809870" duration="99000" />
     </task>
+    <task id="LOCAL-00001" summary="有次数选择，同时提高了图片识别度">
+      <created>1640070674493</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640070674493</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -159,18 +197,22 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="有次数选择，同时提高了图片识别度" />
+    <option name="LAST_COMMIT_MESSAGE" value="有次数选择，同时提高了图片识别度" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/waterRPA.py</url>
-          <line>124</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/评教/pingjiao.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/waterRPA.py</url>
-          <line>138</line>
-          <option name="timeStamp" value="19" />
+          <url>file://$PROJECT_DIR$/评教/pingjiao.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -181,10 +223,6 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/waterRPA$waterRPA.coverage" NAME="waterRPA Coverage Results" MODIFIED="1638507049969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/waterRPA_py$waterRPA.coverage" NAME="waterRPA Coverage Results" MODIFIED="1640069602198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/waterRPA.py">

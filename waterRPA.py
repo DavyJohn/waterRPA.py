@@ -10,7 +10,7 @@ import random
 def mouseClick(clickTimes,lOrR,img,reTry):
     if reTry == 1:
         while True:
-            location = pyautogui.locateCenterOnScreen(img,confidence =0.9)
+            location = pyautogui.locateCenterOnScreen(img,confidence = 0.9)
             if location is not None:
                 pyautogui.click(location.x,location.y,clicks=clickTimes,interval=0.2,duration=0.2,button=lOrR)
                 break
@@ -120,12 +120,20 @@ def mainWork(img):
         #4代表输入
         elif cmdType.value == 4.0:
             inputValue = sheet3.row(i)[1].value
-            values = inputValue.split('。')
-            value = random.sample(values,1)
-            pyperclip.copy(value[0])
-            pyautogui.hotkey('ctrl','v')
-            time.sleep(0.5)
-            print("输入:",value[0])
+            if str(inputValue).find("。") != -1:
+                # 存在的情况
+                values = inputValue.split('。')
+                value = random.sample(values, 1)
+                pyperclip.copy(value[0])
+                pyautogui.hotkey('ctrl', 'v')
+                time.sleep(0.5)
+                print("输入:", value[0])
+            else:
+                # 不存在
+                pyperclip.copy(inputValue)
+                pyautogui.hotkey('ctrl', 'v')
+                time.sleep(0.5)
+                print("输入:", value)
         #5代表等待
         elif cmdType.value == 5.0:
             #取图片名称
