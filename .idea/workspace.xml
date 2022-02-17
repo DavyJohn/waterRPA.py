@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3dbaa8d-7f9d-44d4-a3c2-57ca9474d02c" name="Default Changelist" comment="有次数选择，同时提高了图片识别度">
+    <list default="true" id="f3dbaa8d-7f9d-44d4-a3c2-57ca9474d02c" name="Default Changelist" comment="年前版本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/waterRPA.py" beforeDir="false" afterPath="$PROJECT_DIR$/waterRPA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/办公自动化.xls" beforeDir="false" afterPath="$PROJECT_DIR$/办公自动化.xls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,6 +72,27 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Python.waterRPA">
+    <configuration name="bindundun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="waterRPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bindundun.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pingjiao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="waterRPA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,6 +140,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.waterRPA" />
+        <item itemvalue="Python.bindundun" />
         <item itemvalue="Python.pingjiao" />
       </list>
     </recent_temporary>
@@ -150,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640070674493</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="年前版本">
+      <created>1642402199578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642402199579</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -199,7 +234,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="有次数选择，同时提高了图片识别度" />
-    <option name="LAST_COMMIT_MESSAGE" value="有次数选择，同时提高了图片识别度" />
+    <MESSAGE value="年前版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="年前版本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
