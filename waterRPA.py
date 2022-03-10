@@ -133,7 +133,7 @@ def mainWork(img):
                 pyperclip.copy(inputValue)
                 pyautogui.hotkey('ctrl', 'v')
                 time.sleep(0.5)
-                print("输入:", value)
+                print("输入:", inputValue)
         #5代表等待
         elif cmdType.value == 5.0:
             #取图片名称
