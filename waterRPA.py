@@ -10,7 +10,7 @@ import random
 def mouseClick(clickTimes,lOrR,img,reTry):
     if reTry == 1:
         while True:
-            location = pyautogui.locateCenterOnScreen(img,confidence = 0.9)
+            location = pyautogui.locateCenterOnScreen(img,grayscale=False,confidence=0.7)
             if location is not None:
                 pyautogui.click(location.x,location.y,clicks=clickTimes,interval=0.2,duration=0.2,button=lOrR)
                 break
@@ -123,7 +123,9 @@ def mainWork(img):
             if str(inputValue).find("。") != -1:
                 # 存在的情况
                 values = inputValue.split('。')
+                print("debug",values)
                 value = random.sample(values, 1)
+                print("输入原始数据:", value)
                 pyperclip.copy(value[0])
                 pyautogui.hotkey('ctrl', 'v')
                 time.sleep(0.5)
@@ -144,8 +146,8 @@ def mainWork(img):
         elif cmdType.value == 6.0:
             #取图片名称
             scroll = sheet3.row(i)[1].value
-            pyautogui.scroll(int(scroll))
-            print("滚轮滑动",int(scroll),"距离")                      
+            pyautogui.scroll(-int(scroll))
+            print("滚轮滑动",int(scroll),"距离")
         i += 1
 
 if __name__ == '__main__':

@@ -2,7 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3dbaa8d-7f9d-44d4-a3c2-57ca9474d02c" name="Default Changelist" comment="修改1.2">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/waterRPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/waterRPA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/15.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/17.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/21.png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/22.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/23.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/25.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/3.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/31.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/32.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/33.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/4.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/5.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/waterRPA.py" beforeDir="false" afterPath="$PROJECT_DIR$/waterRPA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/办公自动化.xls" beforeDir="false" afterPath="$PROJECT_DIR$/办公自动化.xls" afterDir="false" />
     </list>
@@ -67,10 +102,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/waterRPA" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.waterRPA">
     <configuration name="bindundun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
